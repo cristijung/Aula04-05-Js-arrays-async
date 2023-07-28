@@ -19,4 +19,12 @@ function selecionarFrutas(item, indice) {
 
 frutas.forEach(selecionarFrutas);
 console.log(frutasIniciadasComM);
-//------------------------------------
+//----------------------------------------------
+let listNum = [1, 5, 6, 8, 24, 78, 3, 56, 79, 68];
+
+function verificarPares(elemento, indice) {
+    if (elemento % 2 == 0) 
+    console.log(`Os números pares são: ${elemento} e sua posição é: ${indice}`);
+}
+
+listNum.forEach(verificarPares);
